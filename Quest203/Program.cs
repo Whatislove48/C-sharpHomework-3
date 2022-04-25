@@ -21,6 +21,6 @@ double by = 1;
 
 Console.WriteLine("lenght " + Math.Round(length(ax, ay, bx, by),2));
 
-*/
+
 
 
