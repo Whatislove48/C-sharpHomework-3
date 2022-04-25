@@ -7,8 +7,9 @@
 
 int Palindrom(int[] num){
     int flag = 0;
-    for (int i = 0; i < (4-i); i++){
-        if(num[i] == num[4-i]){
+    int len = num.length -1;
+    for (int i = 0; i < (len-i); i++){
+        if(num[i] == num[len-i]){
             flag = 1;
         }
         else{
