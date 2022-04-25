@@ -7,7 +7,7 @@
 
 int Palindrom(int[] num){
     int flag = 0;
-    int len = num.length -1;
+    int len = num.Length -1;
     for (int i = 0; i < (len-i); i++){
         if(num[i] == num[len-i]){
             flag = 1;
@@ -30,7 +30,7 @@ int[] CountOfNumber(int numeric){
 }
 
 
-int testnum = 12821;
+int testnum = 23432;
 int id = Palindrom(CountOfNumber(testnum));
 if (testnum < 100000 && testnum > 9999){
     if (id == 1){
